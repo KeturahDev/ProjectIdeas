@@ -14,6 +14,7 @@
 - Mob X
 - Firebase
 - Bootstrap
+- React Router
 
 ## Copyright and Licensing 
 
