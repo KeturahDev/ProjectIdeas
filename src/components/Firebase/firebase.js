@@ -1,4 +1,4 @@
-import * as firebase from 'firebase';
+import * as firebase from 'firebase/app';
 import 'firebase/firestore';
 
 const firebaseConfig = {
@@ -11,5 +11,9 @@ const firebaseConfig = {
   appId: process.env.REACT_APP_FIREBASE_APP_ID 
 }
 
-firebase.initialApp(firebaseConfig);
-export default firebase;
+class Firebase {
+  constructor() {
+    firebase.initializeApp(firebaseConfig);
+  }
+}
+export default Firebase;
