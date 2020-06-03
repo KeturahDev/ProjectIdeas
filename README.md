@@ -15,6 +15,7 @@
 - Firebase
 - Bootstrap
 - React Router
+- React Context
 
 ## Copyright and Licensing 
 
